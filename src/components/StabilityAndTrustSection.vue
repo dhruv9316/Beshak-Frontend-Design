@@ -1,18 +1,26 @@
 <template>
   <section
-    class="bg-[#E0F8E8] bg- secondary-light px-24 py-14 max-w-[90%] mx-auto flex flex-col gap-16 my-10 rounded-xl"
+    class="bg-[#E0F8E8] px-6 sm:px-24 py-4 sm:py-14 sm:max-w-[90%] mx-auto flex flex-col gap-16 my-10 rounded-xl items-center"
   >
-    <div class="flex flex-col lg:flex-row gap-10 lg:gap-16 items-center">
-      <div class="flex-1">
-        <h2 class="text-[40px] leading-[48px] font-bold text-[#18181B] mb-4">
+    <div
+      class="flex flex-col sm:flex-row gap-10 lg:gap-16 items-center sm:justify-between"
+    >
+      <div class="flex-1 flex flex-col items-center sm:items-start">
+        <h2
+          class="text-2xl sm:text-[40px] leading-[48px] font-bold text-[#18181B] mb-4"
+        >
           Build stability as you grow
         </h2>
-        <p class="text-secondary text-xl font-semibold max-w-[70%] mb-6">
+        <p
+          class="text-secondary text-lg sm:text-xl font-semibold sm:max-w-[70%] mb-6 text-center sm:text-left"
+        >
           Assuming you're 30. Roughly 30% of your money should be in something
           stable.
         </p>
 
-        <p class="text-base text-[#18181B] max-w-[75%] font-medium">
+        <p
+          class="text-base text-[#18181B] sm:max-w-[75%] font-medium text-center sm:text-left"
+        >
           You're probably heavy on equity. Mutual funds, stocks, maybe some
           crypto. That's fine for growth. But your portfolio needs a stable base
           too. A general rule: invest a percentage equal to your age in low-risk
@@ -21,13 +29,11 @@
         </p>
       </div>
 
-      <div class="w-full max-w-[320px] mx-auto lg:mx-0">
-        <PieChart />
-      </div>
+      <PieChart />
     </div>
 
     <div
-      class="flex flex-col sm:flex-row items-center justify-between gap-10 lg:gap-16"
+      class="flex flex-col-reverse sm:flex-row gap-10 lg:gap-16 items-center"
     >
       <div class="flex flex-col items-center justify-center">
         <div
@@ -57,16 +63,22 @@
         </div>
       </div>
 
-      <div class="flex-1 max-w-[50%]">
-        <h3 class="text-[40px] leading-[48px] font-bold text-[#18181B] mb-4">
+      <div class="flex-1 flex flex-col items-center sm:items-start">
+        <h3
+          class="text-2xl sm:text-[40px] leading-[48px] font-bold text-[#18181B] mb-4"
+        >
           Handpicked, not hard sold
         </h3>
-        <p class="text-secondary text-xl font-semibold max-w-[70%] mb-6">
+        <p
+          class="text-secondary text-lg sm:text-xl font-semibold sm:max-w-[70%] mb-6 text-center sm:text-left"
+        >
           We know Guaranteed Savings Plans get mis-sold. That's exactly why we
           built this.
         </p>
 
-        <p class="text-base text-[#18181B] max-w-[95%] font-medium">
+        <p
+          class="text-base text-[#18181B] max-w-[95%] font-medium text-center sm:text-left"
+        >
           Insurance agents routinely push Guaranteed Savings Plans with inflated
           return projections and buried lock-ins. We've seen it for years. Every
           plan here was reviewed by our team for real, post-tax returns, no IRR
