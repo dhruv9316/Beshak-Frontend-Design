@@ -1,5 +1,7 @@
-<script setup lang="ts"></script>
-
 <template>
-  <h1 class="text-3xl font-bold text-blue-500">Tailwind is working 🚀</h1>
+  <HomeView />
 </template>
+
+<script setup lang="ts">
+import HomeView from "./views/HomeView.vue";
+</script>
