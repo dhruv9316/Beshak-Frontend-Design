@@ -1,6 +1,6 @@
 <template>
   <div
-    class="flex flex-col items-center text-center px-4 sm:px-8 py-4 sm:py-8 bg-secondary-light sm:bg-transparent rounded-xl mr-4 sm:mr-0"
+    class="flex flex-col items-center text-center px-4 sm:px-8 py-4 sm:py-8 bg-secondary-light sm:bg-transparent rounded-xl w-[180px] sm:w-auto"
   >
     <img :src="icon" :alt="label" class="w-8 h-8 mb-4" loading="lazy" />
 

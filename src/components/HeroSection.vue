@@ -56,7 +56,7 @@
             variant="primary"
           />
         </div>
-        <div class="absolute bottom-20 right-0 sm:bottom-56 sm:right-4 z-20">
+        <div class="absolute bottom-20 -right-3 sm:bottom-56 sm:right-4 z-20">
           <InterestCard rate="4.6%" label="Fixed Deposit" variant="secondary" />
         </div>
       </div>

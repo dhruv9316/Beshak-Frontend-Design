@@ -1,6 +1,8 @@
 <template>
-  <section class="px-24 py-16">
-    <h2 class="text-center text-5xl font-semibold text-[#18181B] mb-12">
+  <section class="px-4 sm:px-24 py-16">
+    <h2
+      class="text-center text-2xl sm:text-5xl font-bold text-[#18181B] mb-6 sm:mb-12"
+    >
       Not just better returns. A smarter structure.
     </h2>
 
