@@ -29,7 +29,9 @@
         </p>
       </div>
 
-      <PieChart />
+      <div class="h-[300px] sm:h-[360px] aspect-square">
+        <PieChart />
+      </div>
     </div>
 
     <div

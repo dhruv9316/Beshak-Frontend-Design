@@ -1,5 +1,5 @@
 <template>
-  <VChart class="h-[360px] w-[360px]" :option="chartOption" autoresize />
+  <VChart class="h-full w-full" :option="chartOption" autoresize />
 </template>
 
 <script setup lang="ts">

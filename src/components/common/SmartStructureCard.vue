@@ -6,11 +6,13 @@
 
     <div class="flex flex-col items-start sm:items-center justify-start">
       <h3
-        class="text-xl sm:text-2xl font-bold leading-tight text-[#18181B] mb-3"
+        class="text-xl sm:text-2xl font-bold leading-tight text-[#18181B] mb-3 text-left sm:text-center"
       >
         {{ label }}
       </h3>
-      <p class="text-sm sm:text-base font-medium text-[#181818] text-left">
+      <p
+        class="text-sm sm:text-base font-medium text-[#181818] text-left sm:text-center sm:w-[80%]"
+      >
         {{ description }}
       </p>
     </div>
