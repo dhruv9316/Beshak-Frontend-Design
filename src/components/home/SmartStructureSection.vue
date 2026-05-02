@@ -23,13 +23,13 @@
 </template>
 
 <script setup lang="ts">
-import SmartStructureCard from "./common/SmartStructureCard.vue";
-import stockUpIcon from "../assets/icons/stock-up.svg";
-import shieldIcon from "../assets/icons/shield.svg";
-import searchingIcon from "../assets/icons/searching.svg";
-import umbrellaIcon from "../assets/icons/umbrella.svg";
-import taxFreeIcon from "../assets/icons/tax-free.svg";
-import flexibleDatesIcon from "../assets/icons/flexible-dates.svg";
+import SmartStructureCard from "../common/SmartStructureCard.vue";
+import stockUpIcon from "../../assets/icons/stock-up.svg";
+import shieldIcon from "../../assets/icons/shield.svg";
+import searchingIcon from "../../assets/icons/searching.svg";
+import umbrellaIcon from "../../assets/icons/umbrella.svg";
+import taxFreeIcon from "../../assets/icons/tax-free.svg";
+import flexibleDatesIcon from "../../assets/icons/flexible-dates.svg";
 
 const cards = [
   {

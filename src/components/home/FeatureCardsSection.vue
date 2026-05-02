@@ -1,10 +1,10 @@
 <template>
-  <section class="flex flex-col items-center bg-white px-4 py-10 sm:px-24">
+  <section class="flex flex-col items-center bg-white px-4 py-10 lg:px-24">
     <p class="mb-8 text-center text-2xl font-bold leading-7 sm:hidden">
       Why trust Beshak?
     </p>
 
-    <div class="feature-swiper w-full max-w-full sm:hidden">
+    <div class="feature-swiper w-full max-w-full lg:hidden">
       <Swiper
         :modules="[Pagination, Autoplay]"
         :slides-per-view="2"
@@ -16,6 +16,7 @@
           pauseOnMouseEnter: true,
         }"
         :watch-overflow="true"
+        :breakpoints="{ 450: { slidesPerView: 3 } }"
         class="!pb-0"
         role="region"
         aria-label="Why trust Beshak"
@@ -36,7 +37,7 @@
     </div>
 
     <div
-      class="hidden sm:flex w-full max-w-full flex-nowrap items-stretch"
+      class="hidden lg:flex w-full max-w-full flex-nowrap items-stretch"
       role="region"
     >
       <div
@@ -65,11 +66,11 @@ import { Swiper, SwiperSlide } from "swiper/vue";
 import { Autoplay, Pagination } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/pagination";
-import FeatureInfoCard from "./common/FeatureInfoCard.vue";
-import balanceScaleIcon from "../assets/icons/balance-scale.svg";
-import hatIcon from "../assets/icons/hat.svg";
-import notAllowedIcon from "../assets/icons/not-allowed.svg";
-import smilyIcon from "../assets/icons/smily.svg";
+import FeatureInfoCard from "./../common/FeatureInfoCard.vue";
+import balanceScaleIcon from "../../assets/icons/balance-scale.svg";
+import hatIcon from "../../assets/icons/hat.svg";
+import notAllowedIcon from "../../assets/icons/not-allowed.svg";
+import smilyIcon from "../../assets/icons/smily.svg";
 
 const featureCards = [
   {
